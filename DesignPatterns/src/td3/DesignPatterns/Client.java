@@ -2,8 +2,11 @@ package td3.DesignPatterns;
 
 class Client {
     public Client (){
+
         prodA = new ProductA ();
+
          }
+
     public void foo (){
          prodA.doYourStuff();
          ProductB myProdB = new ProductB();
@@ -12,5 +15,5 @@ class Client {
      myProdC.perform();
     }
     ProductA prodA ;
-    ProductB prodB ;
+//    ProductB prodB ;
 }
